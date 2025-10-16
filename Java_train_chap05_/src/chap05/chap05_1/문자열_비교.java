@@ -3,8 +3,8 @@ package chap05.chap05_1;
 public class 문자열_비교 {
 
 	public static void main(String[] args) {
-		String strVar1 = "신민철";
-		String strVar2 = "신민철";
+		String strVar1 = "개발자";
+		String strVar2 = "개발자";
 		
 		if(strVar1 == strVar2) {
 			System.out.println("strVar1과 strVar2는 참조가 같음");
@@ -15,8 +15,8 @@ public class 문자열_비교 {
 		if(strVar1.equals(strVar2)) {
 			System.out.println("strVar1과 strVar2는 문자열이 같음");
 		}
-		String strVar3 = new String("신민철");
-		String strVar4 = new String("신민철");
+		String strVar3 = new String("개발자");
+		String strVar4 = new String("개발자");
 		
 		if(strVar3 == strVar4) {
 			System.out.println("strVar1과 strVar2는 참조가 같음");
