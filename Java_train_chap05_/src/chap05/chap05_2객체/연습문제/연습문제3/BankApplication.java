@@ -22,7 +22,7 @@ public class BankApplication {
 			 int selectNo=s.nextInt();
 	   
 			 if(selectNo==1) {
-				 createAccount();
+				 Account.createAccount();
 			 }else if(selectNo==2) {
 				 accountList();
 			 }else if(selectNo==3) {
