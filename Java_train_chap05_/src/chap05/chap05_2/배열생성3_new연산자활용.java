@@ -1,7 +1,9 @@
 package chap05.chap05_2;
 
 public class 배열생성3_new연산자활용 {
-
+    //기본값과 초기값 혼동하지 말것 
+	//기본값: 사용자가 아무 동작도 취하지 않을 경우 java가 자동으로 생성하는 값
+	//초기값: 
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];
 		for(int i = 0; i < 3; i++) {
