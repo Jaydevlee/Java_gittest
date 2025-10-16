@@ -20,6 +20,6 @@ public class Student {
 	//개인별 평균 계산
 	double avg() {
 		//국+영+수
-		return (kor + eng + math) / 3;
+		return (kor + eng + math) / 3.0;
 	}
 }
