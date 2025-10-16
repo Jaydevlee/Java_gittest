@@ -7,7 +7,7 @@ public class 구구단For문활용 {
 			System.out.println("***" + m + "단 ***");
 			for(int n=1; n<=9; n++) {
 				System.out.println(m + "x" + n + "=" + (m * n));
-				if(m == 5) {
+				if(n == 9) {
 					break Stop;
 				}
 			}
