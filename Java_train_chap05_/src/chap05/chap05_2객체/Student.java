@@ -12,12 +12,12 @@ public class Student {
 	int math;
 	
 	//메소드
-	//개인별 총점 계산
+	//개인별 총점 계산 메서드 선언
 	int total() {
 		//국+영+수
 		return kor + eng + math;
 	}
-	//개인별 평균 계산
+	//개인별 평균 계산 메서드 선언
 	double avg() {
 		//국+영+수
 		return (kor + eng + math) / 3.0;
