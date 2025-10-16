@@ -36,7 +36,7 @@ public class Account {
 		System.out.println("초기입금액: ");
 		balance = Integer.parseInt(s.nextLine());
 		return new Account(ano, owner, balance);
-		if()
+	
 	}
 }
 

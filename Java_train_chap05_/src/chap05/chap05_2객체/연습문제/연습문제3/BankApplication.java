@@ -36,7 +36,7 @@ public class BankApplication {
 		 System.out.println("프로그램 종료");
 	 	}
 	 
-	 // 계좌생성하기
+	
 
 	 // 계좌목록보기
 
