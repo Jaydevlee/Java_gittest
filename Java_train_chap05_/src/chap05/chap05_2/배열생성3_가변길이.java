@@ -18,7 +18,7 @@ public class 배열생성3_가변길이 {
 		 mathScore1.add(75);
 		 mathScore1.add(70);
 		 mathScore1.add(68);
-
+		  
 	}
 
 }
