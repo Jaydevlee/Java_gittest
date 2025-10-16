@@ -19,6 +19,8 @@ public class 연습문제2 {
 		double avg = (double)sum / nums.length; 
 		System.out.println("합계: " + sum);
 		System.out.println("평균: " + avg);
+		
+		s.close();
 	} 
 
 }
