@@ -1,7 +1,7 @@
 package chap06.chap6_1;
 
 public class Student {
-	String name; //변수x 필드 메소드 밖에서 선언됨
+	String name; //필드: 변수x 필드 메소드 밖에서 선언됨
 	
 	Student(){} //생성자 식별방법: 클래스 이름과 동일하며 메소드 형식(리턴타입이 없는 메소드)
 	
