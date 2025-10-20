@@ -11,11 +11,18 @@ public class Car {
 	Car(){
 		
 	}
+	
 	Car(String model){
 		this(model, "은색", 250);
+		//this.model = model;
+		//this.color = "은색";
+		//this maxSpeed = 250; 
 	}
 	Car(String model, String color) {
 		this(model, color, 250);
+		//this.model = model;
+		//this.color = color;
+		//this maxSpeed = 250; 
 	}
 	Car(String model, String color, int maxSpeed){
 		this.model = model;

@@ -5,7 +5,6 @@ public class Car {
 	int cc;
 	//생성자
 	Car(String color, int cc){
-		this.color = color;
-		this.cc = cc;
+		
 	}
 }

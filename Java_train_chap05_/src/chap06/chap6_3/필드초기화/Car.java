@@ -1,4 +1,4 @@
-package chap06.chap6_3.오버로딩;
+package chap06.chap6_3.필드초기화;
 
 public class Car {
 	//필드
