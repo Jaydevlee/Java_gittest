@@ -25,18 +25,6 @@ public class Account {
 		 public int getBalance() {return balance;}
 		 public void setBalance(int balance) {this.balance = balance;}
 		
-	
-	// 계좌생성하기
-	Account createAccount() {
-		Scanner s = new Scanner(System.in);
-		System.out.println("계좌번호: ");
-		ano = s.nextLine();
-		System.out.println("계좌주: ");
-		owner = s.nextLine();
-		System.out.println("초기입금액: ");
-		balance = Integer.parseInt(s.nextLine());
-		return new Account(ano, owner, balance);
-	
-	}
+
 }
 
