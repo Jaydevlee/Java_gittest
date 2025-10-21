@@ -23,13 +23,13 @@ public class CalculartorTest {
 		}
 		if (op.equals("/")) {
 			if(num2 != 0) {
-				double result = myCalc.getADiv(num1, num2);
+				result = myCalc.getADiv(num1, num2);
 			} else {
 				System.out.println("무한대");
 			}
 		}
 		System.out.println("연산결과: " + result);
-
+		s.close();
 	}
 
 }
