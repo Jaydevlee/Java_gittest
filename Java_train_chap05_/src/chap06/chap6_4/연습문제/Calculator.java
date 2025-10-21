@@ -1,6 +1,6 @@
 package chap06.chap6_4.연습문제;
 
-import java.util.Scanner;
+
 
 public class Calculator {
 	double getAdd(double num1, double num2) {

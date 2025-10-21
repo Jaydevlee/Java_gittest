@@ -1,26 +1,35 @@
 package chap06.chap6_4.연습문제;
 
+import java.util.Scanner;
 
 public class CalculartorTest {
 
 	public static void main(String[] args) {
-	
-		Calculator myCalc = new Calculator(7, 3);
-		 int result1 = myCalc.getAdd();
-		 System.out.println(result1);
-		 
-		 int result2 = myCalc.getSub();
-		 System.out.println(result2);
-		 
-		 int result3 = myCalc.getMul();
-		 System.out.println(result3);
-		 
-		 double result4 = Math.round(myCalc.getDiv() * 100)/100.0;
-		 System.out.println(result4);
-		 
-		 myCalc.cal();
-		 
-		 
+		Scanner s = new Scanner(System.in);
+		Calculator myCalc = new Calculator();
+		
+		System.out.print("연산하려는 두 수와 연산자를 입력: ");
+		double num1 = s.nextDouble();
+		String op = s.nextLine();
+		double num2 = s.nextDouble();
+		double result = 0;
+		
+		if(op.equals("+")) {
+			result = myCalc.getAdd(num1, num2);
+		} else if (op.equals("-")) {
+			result = myCalc.getSub(num1, num2);
+		} else if (op.equals("*")) {
+			result = myCalc.getSub(num1, num2);
+		}
+		if (op.equals("/")) {
+			if(num2 != 0) {
+				double result = myCalc.getADiv(num1, num2);
+			} else {
+				System.out.println("무한대");
+			}
+		}
+		System.out.println("연산결과: " + result);
+
 	}
 
 }
