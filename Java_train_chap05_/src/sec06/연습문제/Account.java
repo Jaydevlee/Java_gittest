@@ -14,11 +14,8 @@ public class Account {
 		return balance;
 	}
 	public void setBalance(int balance) {
-		if(balance >=0 && balance <= 1000000) {
+		if(balance >= MIN_BALANCE && balance <= MAX_BALANCE) {
 			this.balance = balance;
-			System.out.println("잔고: " + balance);
-		} else {
-			System.out.println("0부터 1000000사이의 값을 입력하세요");
 		}
 		
 	}

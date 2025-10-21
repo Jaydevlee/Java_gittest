@@ -5,10 +5,13 @@ public class AccountExample {
 	public static void main(String[] args) {
 		Account account = new Account();
 		account.setBalance(100);
-		account.getBalance();
+		System.out.println(account.getBalance());
 		
 		account.setBalance(100000000);
-		account.getBalance();
+		System.out.println(account.getBalance());
+		
+		account.setBalance(200000);
+		System.out.println(account.getBalance());
 	}
 
 }

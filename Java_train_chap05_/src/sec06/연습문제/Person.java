@@ -17,10 +17,10 @@ public class Person {
 		return name;
 	}
 	public void setName(String name) {
-		if(name != null && !name.trim().isEmpty()) {
-		this.name = name;
+		if(!name.equals("")) {
+			this.name = name;
 		} else {
-			this.name = "이름없음";
+			this.name = "이름없음"; //이름이 빈문자열일 경우 
 		}
 	}
 	public int getAge() {
@@ -29,13 +29,9 @@ public class Person {
 	public void setAge(int age) {
 		if(age >= 0) {
 		this.age = age;
-		} else {
-			System.out.println("나이를 정확하게 입력하십시오");
 		}
 	}
-	void printInfo() {
-		setName(name);
-		setAge(age);
+	void printInfo() { 
 		System.out.println("이름: " + getName());
 		System.out.println("나이: " + getAge());
 	}
