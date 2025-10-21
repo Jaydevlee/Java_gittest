@@ -21,21 +21,21 @@ public class CardExample {
 		card2.shape = "heart ";
 		card2.number = "A";
 		
-		System.out.println("card의 크기: " + card1.width + "x" + card1.height + "이다.");
-		System.out.println("card의 색상: " + card1.color + "이고, 모양은 " + card1.shape + "이며, 숫자는 " + card1.number);
+		System.out.println("card1의 크기: " + card1.width + "x" + card1.height + "이다.");
+		System.out.println("card1의 색상: " + card1.color + "이고, 모양은 " + card1.shape + "이며, 숫자는 " + card1.number);
 		
-		System.out.println("card의 크기: " + card2.width + "x" + card2.height + "이다.");
-		System.out.println("card의 색상: " + card2.color + "이고, 모양은 " + card2.shape + "이며, 숫자는 " + card2.number);
+		System.out.println("card2의 크기: " + card2.width + "x" + card2.height + "이다.");
+		System.out.println("card2의 색상: " + card2.color + "이고, 모양은 " + card2.shape + "이며, 숫자는 " + card2.number);
 		//이렇게 보면 인스턴스와 정적멤버의 차이를 알 수 없다.
 		
 		//card2의 넓이와 높이 변경
 		card2.width = 100;
 		card2.height = 200;
-		System.out.println("card의 크기: " + card1.width + "x" + card1.height + "이다.");
-		System.out.println("card의 색상: " + card1.color + "이고, 모양은 " + card1.shape + "이며, 숫자는 " + card1.number);
+		System.out.println("card1의 크기: " + card1.width + "x" + card1.height + "이다.");
+		System.out.println("card1의 색상: " + card1.color + "이고, 모양은 " + card1.shape + "이며, 숫자는 " + card1.number);
 		
-		System.out.println("card의 크기: " + card2.width + "x" + card2.height + "이다.");
-		System.out.println("card의 색상: " + card2.color + "이고, 모양은 " + card2.shape + "이며, 숫자는 " + card2.number);
+		System.out.println("card2의 크기: " + card2.width + "x" + card2.height + "이다.");
+		System.out.println("card2의 색상: " + card2.color + "이고, 모양은 " + card2.shape + "이며, 숫자는 " + card2.number);
 		//card2 뿐만 아닌 card1의 높이와 넓이도 같이 변한다. 이는 정적멤버
 	}
 
