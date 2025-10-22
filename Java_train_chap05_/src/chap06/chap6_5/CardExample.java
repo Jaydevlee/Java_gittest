@@ -5,7 +5,7 @@ public class CardExample {
 	public static void main(String[] args) { //정적 메소드, 리턴값이 없는 메소드
 		//정적멤버접근 new키워드x
 		Card.width = 63;
-		Card.hegiht = 89;
+		Card.height = 89;
 		
 		Card card1 = new Card();
 		card1.width = 63;
