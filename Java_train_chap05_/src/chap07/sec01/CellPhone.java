@@ -2,10 +2,12 @@ package chap07.sec01;
 
 public class CellPhone {
 	//필드
-	String model;
-	String color;
+	String model; //인스턴스 필드
+	String color; //인스턴스 필드
 	
 	//생성자
+	//생성자가 따로 선언되지 않으면 기본생성자 자동 추가
+	//CellPhone () {}
 	
 	//메소드
 	void powerOn() {
