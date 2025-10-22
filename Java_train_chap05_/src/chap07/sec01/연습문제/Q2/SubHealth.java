@@ -24,17 +24,17 @@ public class SubHealth extends Health {
 		}
 		//비만도 계산
 		fat = (weight / s_weight) * 100;
-		if(fat < 90) {
+		if(fat <= 90) {
 			result = "저체중";
-		} else if(fat > 91 && fat <= 110){
+		} else if(fat <= 110){
 			result = "정상(표준체중)";
-		} else if(fat > 111 && fat <= 120){
+		} else if(fat <= 120){
 			result = "과체중";
-		} else if(fat > 121 && fat <= 130){
+		} else if(fat <= 130){
 			result = "경도비만";
-		} else if(fat  >131 && fat <= 150){
+		} else if(fat <= 150){
 			result = "중도비만";
-		} else if(fat > 150){
+		} else {
 			result = "고도비만";
 		}
 	}
@@ -46,7 +46,7 @@ public class SubHealth extends Health {
 		System.out.println();
 		super.output1();
 		System.out.println();
-		System.out.println("당신은 비만도 " + fat + "이고" + result + "입니다.");
+		System.out.println("당신은 비만도 " + fat + "이고 " + result + "입니다.");
 	}
 }
 
