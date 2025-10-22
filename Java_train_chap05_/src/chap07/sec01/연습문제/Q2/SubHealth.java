@@ -40,6 +40,7 @@ public class SubHealth extends Health {
 	}
 	//최종 결과 출력
 	void output2() {
+		System.out.println("***** 비만도 Check *****");
 		super.input();
 		calculate();
 		System.out.println();
