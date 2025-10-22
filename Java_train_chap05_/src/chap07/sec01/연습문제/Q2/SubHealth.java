@@ -2,9 +2,9 @@ package chap07.sec01.연습문제.Q2;
 
 public class SubHealth extends Health {
 	//필드
-	double s_weight;
-	double fat;
-	String result;
+	double s_weight; //표준체중
+	double fat; //비만도
+	String result; //결과값
 	
 	//생성자
 	SubHealth(double s_weight, double fat, String result) {

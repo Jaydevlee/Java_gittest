@@ -6,15 +6,15 @@ public class Health {
 	//필드
 	//메소드 내부에서 스캐너 객체 생성하면 꼬일수 있어서 전역변수로 선언하는 것이 좋다
 	Scanner s = new Scanner(System.in);
-	char gender;
-	double tall;
-	double weight;
+	char gender; //성별
+	double tall; //신장
+	double weight; //체중
 	
 	//생성자, 기본 생성자
 	//메서드
 	//입력 메서드
 	void input() {
-		
+		//성별 입력
 		System.out.print("성별(M/F): ");
 		String inputGender = s.nextLine();
 		
@@ -23,10 +23,11 @@ public class Health {
 		} else {
 			System.out.println("성별을 정확히 입력");
 		}
-		
+		//신장 입력
 		System.out.print("신장(cm): ");
 		tall = s.nextDouble();
 		s.nextLine();
+		//체중 입력
 		System.out.print("체중(kg): ");
 		weight = s.nextDouble();
 		

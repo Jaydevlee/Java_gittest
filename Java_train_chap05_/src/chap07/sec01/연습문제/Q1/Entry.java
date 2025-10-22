@@ -4,7 +4,7 @@ public class Entry {
 	//필드
 	String word; //인스턴스 필드
 	//생성자 (기본 생산자 매개변수1)
-	Entry() {}
+	Entry() {} 
 	Entry(String w) {
 		this.word = w;
 	}
