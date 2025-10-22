@@ -16,13 +16,7 @@ public class Health {
 	void input() {
 		//성별 입력
 		System.out.print("성별(M/F): ");
-		String inputGender = s.nextLine();
-		
-		if(inputGender.length() > 0) {
-			gender = inputGender.charAt(0);
-		} else {
-			System.out.println("성별을 정확히 입력");
-		}
+		gender = s.nextLine().charAt(0); //string to char 형변환
 		//신장 입력
 		System.out.print("신장(cm): ");
 		tall = s.nextDouble();
