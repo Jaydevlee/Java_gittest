@@ -7,6 +7,7 @@ public class CellPhone {
 	String model;
 	String color;
 	Scanner s = new Scanner(System.in);
+	
 	//부모 메소드
 	void powerOn(){
 		System.out.println("전원을 켭니다");
@@ -30,6 +31,7 @@ public class CellPhone {
 	//전화 응답 메소드
 	void call() {	
 		while(true) {
+		System.out.println("벨이 울립니다.");
 		System.out.println("-------------------------------");
 		System.out.println("1. 말한다. 2. 듣는다. 3. 전화를 끊는다.");
 		System.out.println("-------------------------------");
