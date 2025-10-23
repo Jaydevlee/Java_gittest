@@ -21,9 +21,9 @@ public class InstanceofExample {
 		method1(parentA);
 		method2(parentA);
 		
-		Parent parentB = new Parent();
-		method1(parentB);
-		method2(parentB);
+		Parent parentB = new Parent(); // Parnet타입 = Parent 타입(자기 자신을 저장함): 자동 타입변환x
+		method1(parentB); //instanceof를 사용하여 변환되지 않음을 출력
+		method2(parentB); //instnaceof를 사용하지 않으면 컴파일 에러
 	}
 
 }
