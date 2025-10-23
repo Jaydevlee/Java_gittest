@@ -5,6 +5,8 @@ public class Parent {
 	public String field1;
 	
 	//생성자
+	
+	//메소드
 	public void method1() {
 		System.out.println("Parent-method1");
 	}
