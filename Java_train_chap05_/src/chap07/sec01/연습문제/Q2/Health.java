@@ -14,6 +14,7 @@ public class Health {
 	//메서드
 	//입력 메서드
 	void input() {
+		System.out.println("***** 비만도 Check *****");
 		//성별 입력
 		System.out.print("성별(M/F): ");
 		gender = s.nextLine().charAt(0); //string to char 형변환
@@ -24,11 +25,17 @@ public class Health {
 		//체중 입력
 		System.out.print("체중(kg): ");
 		weight = s.nextDouble();
-		
+		s.nextLine();
 	}
+	
 	void output1() {
-		System.out.println("성별 - " + gender);
+		if(gender == 'M' || gender == 'F' || gender == 'm' || gender == 'f') {
+			System.out.println("성별 - " + gender);
+		} else { //성별을 잘못 입력했을 경우
+			System.out.println("성별을 정확하게 입력하시오");
+		}
 		System.out.println("신장 - " + tall + "cm");
 		System.out.println("체중 - " + weight + "kg");
+		System.out.println();
 	}
 }

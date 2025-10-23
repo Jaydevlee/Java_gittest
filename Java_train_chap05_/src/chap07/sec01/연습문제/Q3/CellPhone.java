@@ -29,12 +29,12 @@ public class CellPhone {
 	}
 	
 	//전화 응답 메소드
-	void call() {	
-		while(true) {
+	void call() {
 		System.out.println("벨이 울립니다.");
 		System.out.println("-------------------------------");
 		System.out.println("1. 말한다. 2. 듣는다. 3. 전화를 끊는다.");
 		System.out.println("-------------------------------");
+		while(true) {
 		System.out.print("1, 2, 3번 중 하나를 선택하세요. > ");
 		int select1 = Integer.parseInt(s.nextLine());
 		

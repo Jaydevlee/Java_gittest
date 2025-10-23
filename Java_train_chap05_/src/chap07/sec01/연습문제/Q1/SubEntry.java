@@ -10,7 +10,7 @@ public class SubEntry extends Entry {
 		this.definition = d;
 		this.year = y;
 	}
-	/*풀이
+	/* 다른 방법
 	 * SubEntry(String w){
 	 * super(w);
 	 * } 
