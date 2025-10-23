@@ -19,9 +19,8 @@ public class SubHealth extends Health {
 			s_weight = (tall - 100) * 0.9;
 		} else if(gender == 'F' || gender == 'f') {
 			s_weight = (tall - 100) * 0.85;
-		} else {
-			System.out.println("성별을 정확히 입력");
 		}
+		
 		//비만도 계산
 		fat = (weight / s_weight) * 100;
 		if(fat <= 90) {
