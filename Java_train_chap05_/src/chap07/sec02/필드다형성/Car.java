@@ -10,7 +10,7 @@ public class Car {
 	//생성자
 	//메소드
 	int run() {
-		System.out.println("차가 달립니다.");
+		System.out.println("[차가 달립니다.]");
 		if(frontLeftTire.roll() == false) {
 			stop ();
 			return 1;
@@ -31,6 +31,6 @@ public class Car {
 	}
 	//차가 멈췄을 때
 	void stop() {
-		System.out.println("차 멈춤");
+		System.out.println("[차가 멈춥니다.]");
 	}
 }
