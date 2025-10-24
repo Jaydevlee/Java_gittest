@@ -16,14 +16,14 @@ public class MyClass {
 		rc.setVolume(5);
 	}
 	
-	//메소드
+	//메소드 매개변수 지정 x
 	void methodA() {
 		RemoteControl rc = new Audio();
 		rc.turnOn();
 		rc.setVolume(5);
 		
 	}
-	//메소드 매개변수 지정
+	//메소드 매개변수 지정 o
 	void methodB(RemoteControl rc) {
 		rc.turnOn();
 		rc.setVolume(5);

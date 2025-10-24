@@ -7,14 +7,17 @@ public class Audio implements RemoteControl{
 	//생성자
 	
 	//추상 메소드 구현
+	@Override
 	public void turnOn() {
 		System.out.println("오디오를 켭니다.");
 	}
 	//turnOff 메소드 구현
+	@Override
 	public void turnOff() {
 		System.out.println("오디오를 끕니다.");
 	}
 	//setVolume 구현
+	@Override
 	public void setVolume(int volume) {
 		if(volume >= MAX_VOLUME) {
 			this.volume = MAX_VOLUME;
