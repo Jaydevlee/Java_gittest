@@ -14,10 +14,12 @@ public class MyClassExample {
 		
 		//methodA호출
 		System.out.println("3)-------------");
-		myClass1.methodA();
+		MyClass myClass3 = new MyClass();
+		myClass3.methodA();
 		
 		//methodB호출
 		System.out.println("4)-------------");
-		myClass1.methodB(new Television());
+		MyClass myClass4 = new MyClass();
+		myClass4.methodB(new Television());
 	}
 }

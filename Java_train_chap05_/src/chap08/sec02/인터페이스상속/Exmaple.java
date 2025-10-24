@@ -7,16 +7,12 @@ public class Exmaple {
 		
 		InterfaceA ia = impl;
 		ia.methodA();
-		InterfaceB ib1 = (InterfaceB)ia;
-		ib1.methodB();
 		//ia.methodB(); methodB는 InterfaceB에 선언되었기 때문에 InterfaceA로 형변환되면 호출 x
 		System.out.println();
 		
 		InterfaceB ib = impl;
 		//ib.methodA(); methoA는 InterfaceA에 선언되었기 때문에 InterfaceB로 형변환되면 호출 x
 		ib.methodB();
-		InterfaceC ic1 = (InterfaceC)ib;
-		ic1.methodC();
 		System.out.println();
 		
 		InterfaceC ic = impl;
