@@ -1,5 +1,5 @@
 package chap08.sec01.상수_추상메소드_구현;
-
+//          구현클래스    구현       인터페이스
 public class Audio implements RemoteControl{
 	//필드
 	private int volume;
@@ -23,6 +23,7 @@ public class Audio implements RemoteControl{
 		} else {
 			this.volume = volume;
 		}
+		System.out.println("현재 Audio 볼륨: " + volume);
 	}
 	/* 인터페이스의 추상메소드는 기본적으로 public 접근 제한을 가지기 때문에
 	 * public을 생략할 수 없다.

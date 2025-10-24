@@ -1,5 +1,5 @@
 package chap08.sec01.다중인터페이스구현;
-
+//              구현클래스         구현        인터페이스1      인터페이스2
 public class SmartTelevision implements RemoteControl, Searchable {
 	private int volume;
 	
