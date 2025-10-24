@@ -9,21 +9,21 @@ public class MyClass {
 	MyClass(){
 		
 	}
-	//생성자 매개변수1
+	//생성자의 매개값으로 지정
 	MyClass(RemoteControl rc) {
 		this.rc = rc;
 		rc.turnOn();
 		rc.setVolume(5);
 	}
 	
-	//메소드 매개변수 지정 x
+	//메소드 내부 로컬변수
 	void methodA() {
 		RemoteControl rc = new Audio();
 		rc.turnOn();
 		rc.setVolume(5);
 		
 	}
-	//메소드 매개변수 지정 o
+	//메소드의 매개변수로 지정 
 	void methodB(RemoteControl rc) {
 		rc.turnOn();
 		rc.setVolume(5);
