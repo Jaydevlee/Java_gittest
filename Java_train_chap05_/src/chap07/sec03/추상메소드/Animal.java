@@ -6,11 +6,11 @@ public abstract class Animal {
 	
 	//생성자
 
-	//메소드
+	//일반 메소드
 	public void breath() {
 		System.out.println("숨을 쉽니다.");
 	}
 	//추상 메소드
-	//메소드 실행 내용은 작성하지 않는다. 자식클래스에서 작성
+	//추상 메소드는 실행 내용은 작성하지 않는다.
 	public abstract void sound();
 }
