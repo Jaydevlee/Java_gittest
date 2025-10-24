@@ -1,5 +1,5 @@
 package chap08.sec02.확인문제;
-
+//            구현클래스      구현         인터페이스
 public class OracleDao implements DataAccessObject {
 	
 	//메소드
