@@ -1,6 +1,6 @@
-package chap08.sec01.상수_추상메소드_구현;
+package chap08.sec01.인터페이스사용;
 
-public class Televison implements RemoteControl{
+public class Television implements RemoteControl{
 	//필드
 	private int volume;
 	
