@@ -6,6 +6,7 @@ public class SmartTelevision implements RemoteControl, Searchable {
 	//생성자
 	
 	//메소드
+	//RemoteControl 메소드 구현
 	//turnOn의 메소드 구현
 	public void turnOn() {
 		System.out.println("TV를 켭니다.");
@@ -25,6 +26,7 @@ public class SmartTelevision implements RemoteControl, Searchable {
 		}
 		System.out.println("현재 볼륨: " + volume);
 	}
+	//Searchable 메소드 구현
 	public void search(String url) {
 		System.out.println(url + "을 검색합니다.");
 	}
