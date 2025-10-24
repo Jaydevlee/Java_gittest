@@ -33,7 +33,7 @@ public class Calculator2 {
 			return num1 + num2;
 		case "/":
 			if(num2 == 0) {
-				System.out.println("0으로 나눌 수 없습니다.")
+				System.out.println("0으로 나눌 수 없습니다.");
 				return 0;
 			}
 			return num1 / num2;
