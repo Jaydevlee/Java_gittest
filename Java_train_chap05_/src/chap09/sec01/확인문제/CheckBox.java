@@ -8,10 +8,10 @@ public class CheckBox {
 	}
 	
 	void select() {
-		listener.OnSelect();
+		listener.onSelect();
 	}
 	
-	static interface OnselectListener{
+	static interface OnSelectListener{
 		void onSelect();
 	}
 }
