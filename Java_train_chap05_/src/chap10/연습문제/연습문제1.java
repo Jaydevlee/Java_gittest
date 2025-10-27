@@ -34,6 +34,7 @@ public class 연습문제1 {
 				System.out.println("숫자만 입력할 수 있습니다.");
 				}	 
 			}
+		s.close();
 	}
 
 }
