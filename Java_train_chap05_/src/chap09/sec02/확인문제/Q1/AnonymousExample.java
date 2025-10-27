@@ -8,7 +8,7 @@ public class AnonymousExample {
 		
 		anony.field.start();
 		
-		anony method1 호출
+		//anony method1 호출
 		anony.method1();
 		
 		anony.method2(
