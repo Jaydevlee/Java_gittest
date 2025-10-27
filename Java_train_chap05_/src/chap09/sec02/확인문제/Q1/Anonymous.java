@@ -8,7 +8,7 @@ public class Anonymous {
 			System.out.println("디자인을 합니다.");
 		}
 	};
-	//익명 객체 로컬 변수
+	//익명 객체로 로컬 변수 초기화
 	void method1() {
 		Worker localVar = new Worker() {
 			@Override
@@ -18,7 +18,7 @@ public class Anonymous {
 		};
 		localVar.start();
 	}
-	
+	//메소드의 매개값(익명 객체)
 	void method2(Worker worker) {
 		worker.start();
 	}
