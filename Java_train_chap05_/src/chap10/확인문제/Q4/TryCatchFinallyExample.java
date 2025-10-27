@@ -12,7 +12,7 @@ public class TryCatchFinallyExample {
 				System.out.println("인덱스를 초과했음");
 			} catch(NumberFormatException e) {
 				System.out.println("숫자로 변환할 수 없음");
-			} finally {
+			} finally { //예외 발생 여부에 관계 없이 무조건 실행 된다.
 				System.out.println(value);
 			}
 		}
