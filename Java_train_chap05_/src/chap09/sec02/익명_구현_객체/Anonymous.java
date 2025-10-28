@@ -1,6 +1,7 @@
 package chap09.sec02.익명_구현_객체;
 
 public class Anonymous {
+	//필드로 익명 구현 객체 생성
 	RemoteControl field = new RemoteControl() {
 		@Override
 		public void turnOn() {
@@ -11,6 +12,7 @@ public class Anonymous {
 			System.out.println("TV를 끕니다.");
 		}
 	};
+	//로컬 변수로 익명 구현 객체 생성
 	void method1() {
 		RemoteControl localVar = new RemoteControl() {
 			@Override
